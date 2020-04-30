@@ -53,7 +53,7 @@ As described here [https://github.com/winterheart/broadcom-bt-firmware](https://
 
 “bluetooth hci0: firmware: failed to load brcm/BCM20702A1-0a5c-21e6.hcd“
 
-To resolve this, copy the file BCM20702A1-0a5c-21e6.hcd from the above git repository to  /lib/firmware/brcm/ and reboot. Check there were no errors using dmesg | grep -i blue
+To resolve this, copy the file BCM20702A1-0a5c-21e6.hcd from the above git repository to  /lib/firmware/brcm/ and reboot. Check there were no errors using dmesg \| grep -i blue
 
 ### Ubuntu Live Patching - Enable (only for LTS versions)
 
