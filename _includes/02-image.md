@@ -1,1 +1,1 @@
-![Image of Fish](https://images.immediate.co.uk/production/volatile/sites/4/2009/07/GettyImages-931270318-43ab672.jpg?quality=90&resize=940%2C400)
+![Image of Thinkpad T430](https://www.lenovo.com/medias/lenovo-laptop-thinkpad-t430-main.png?context=bWFzdGVyfHJvb3R8NTY4Nzh8aW1hZ2UvcG5nfGg1MC9oZDIvOTUyNDAxMjE4NzY3OC5wbmd8NWIyYTg4YWU5N2Q3MmQ0MTA4NGZjZmQ4NWY1ODg2MTk5YjMyOWRjMDJiYTE0MjBjZWM5N2EyMWFjNTkxMjBhZg)
