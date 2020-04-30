@@ -1,3 +1,3 @@
 # Header
 ## Ian's Git Repo test
-Replace this with your name, and include a header.
+This is a test of Markdown published from GitHub as part of the learning course.
