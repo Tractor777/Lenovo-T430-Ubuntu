@@ -61,13 +61,13 @@ This is enabled in update settings, log-in with an Ubuntu-One account to turn on
 
 ### ThinkVantage Button - Use it to Launch a Terminal Window
 
-Go to: Settings/Devices/Keyboard/Custom Shortcuts \
-Click Add (+) . . . and name the button 'Launch Terminal.' In the 'command' box type: gnome-terminal \
+Go to: Settings/Devices/Keyboard/Custom Shortcuts 
+Click Add (+) . . . and name the button 'Launch Terminal.' In the 'command' box type: gnome-terminal 
 then push the ThinkVantage button. This should successfully map the button to launch a terminal window.
 
 ### SSD - Set Swappiness
 
-Edit /etc/sysctl.conf \
+Edit /etc/sysctl.conf 
 Search for vm.swappiness and change its value as desired. If vm.swappiness does not exist, add it to the end of the file:
 
     vm.swappiness=10
@@ -109,7 +109,7 @@ Now open and edit /etc/thinkfan.conf as root and edit to read (careful not to ad
     (7, 77, 87)
     (127, 85, 32767)
 
-The values in brackets are for the fan levels with the minimal and maximal temperatures before changing up/down the fan level. eg.: (0, 0, 55) means: fan level: 0 between 0-42 C. Fan turns on (at fan speed level 1) above 42C turns off below 40C and steps to fan level 2 above 47C. (because of level 1 config (1, 40, 47).  Note that level 126 is full-speed and 127 is disengaged (max RPM about 5500). Values for levels must overlap otherwise thinkfan reverts to auto. Level 7 is about 4500 RPM. Setting this Disengaged level keeps the temperature about 80 degrees at maximum load rather than getting too high (87 degrees is listed as “high” and 105 as “critical”) which will cause the laptop to shut down.
+The values in brackets are for the fan levels with the minimal and maximal temperatures before changing up/down the fan level. eg.: (0, 0, 42) means: fan level: 0 between 0-42 C. Fan turns on (at fan speed level 1) above 42C turns off below 40C and steps to fan level 2 above 47C. (because of level 1 config (1, 40, 47).  Note that level 126 is full-speed and 127 is disengaged (max RPM about 5500). Values for levels must overlap otherwise thinkfan reverts to auto. Level 7 is about 4500 RPM. Setting this Disengaged level keeps the temperature about 80 degrees at maximum load rather than getting too high (87 degrees is listed as “high” and 105 as “critical”) which will cause the laptop to shut down.
 
 Enable service: via a kernel module. Issue command as root:
 
