@@ -72,7 +72,7 @@ Search for vm.swappiness and change its value as desired. If vm.swappiness d
 
     vm.swappiness=10
 
-### Fan - **Set up the Thinkpad Fan to Operate Correctly**
+### Fan - Set up the Thinkpad Fan to Operate Correctly
 
 This is needed because without this fan maxes out at 4500 RPM, which can lead to throttling the processor on high load. Described at [http://thinkwiki.de/Thinkfan](http://thinkwiki.de/Thinkfan)
 
