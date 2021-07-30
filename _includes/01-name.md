@@ -150,7 +150,7 @@ example output is:
     commands:      enable, disable
     commands:      watchdog &lt;timeout> (&lt;timeout> is 0 (off), 1-120 (seconds))
 
-Note that the level is shown as a number and not auto. (if it is auto, then thinkpad_acpi kernel module isn't loaded or there is a configuration file error). The latest version of Thinkfan can also now use a .yaml file which allows for more flexible sensor configuration to cope with sensor names and paths changing during updates. The thinkfan.yaml file is as below note that the path to the sensors top-level folder is set rather than the individual sensors.
+Note that the level is shown as a number and not auto. (if it is auto, then thinkpad_acpi kernel module isn't loaded or there is a configuration file error). The latest version of Thinkfan can also now use a .yaml file which allows for more flexible sensor configuration to cope with sensor names and paths changing during updates. The [T430 thinkfan.yaml] (https://tractor777.github.io/Lenovo-T430-Ubuntu/thinkfan.yaml) file is as below note that the path to the sensors top-level folder is set rather than the individual sensors.
 
     sensors:
     - hwmon: /sys/class/hwmon  
