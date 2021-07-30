@@ -150,26 +150,26 @@ example output is:
 
 Note that the level is shown as a number and not auto. (if it is auto, then thinkpad_acpi kernel module isn't loaded or there is a configuration file error). The latest version of Thinkfan can also now use a .yaml file which allows for more flexible sensor configuration to cope with sensor names and paths changing during updates. The thinkfan.yaml file is as below note that the path to the sensors top-level folder is set rather than the individual sensors.
 
-sensors:
-  - hwmon: /sys/class/hwmon  
-    name: coretemp
-    indices: [1, 2, 3]
-  - hwmon: /sys/class/hwmon                                         
-    name: acpitz
-    indices: [1]
+    sensors:
+    - hwmon: /sys/class/hwmon  
+        name: coretemp
+        indices: [1, 2, 3]
+    - hwmon: /sys/class/hwmon                                         
+        name: acpitz
+        indices: [1]
 
-fans:
-  - tpacpi: /proc/acpi/ibm/fan
+    fans:
+    - tpacpi: /proc/acpi/ibm/fan
 
-levels:
-  - [0,      0,     55]
-  - [1,     48,     60]
-  - [2,     50,     61]
-  - [3,     52,     63]
-  - [4,     56,     67]
-  - [5,     59,     70]
-  - [7,     63,     80]
-  - [127,   75,     32767]
+    levels:
+    - [0,      0,     55]
+    - [1,     48,     60]
+    - [2,     50,     61]
+    - [3,     52,     63]
+    - [4,     56,     67]
+    - [5,     59,     70]
+    - [7,     63,     80]
+    - [127,   75,     32767]
 
 ### Secure Boot - Enable and register Machine Owner Keys (MOK)
 
