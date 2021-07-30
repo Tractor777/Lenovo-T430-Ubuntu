@@ -12,6 +12,8 @@ Backup anything important on the laptop before starting. Check the backup works.
 
 You can use legacy BIOS installation, but as this laptop supports UEFI might as well use it. The easiest way to ensure the install uses the UEFI installation method is to download the Ubuntu 20.04 iso image and create a live USB Ubuntu boot drive from Windows using [Rufus](https://rufus.ie/). When configuring Rufus, choose the UEFI option to ensure the install uses UEFI also, select the Ubuntu ISO downloaded and create a live USB.
 
+Long Term Supported (LTS) versions of ubuntu are less likely to have any issues and I tend to stick with LTS versions.  
+
 This installation uses UEFI with secure boot, so disable the legacy BIOS boot option in BIOS options of the T430 and enable secure boot.
 
 Boot from USB drive, changing boot order if necessary in BIOS. Choose installation options e.g.  encrypted LVM volume and 3rd party extras. As secure boot has been enabled, the installer asks for another password (this is required on reboot to register those extra drivers using MOK and just needs something simple like monkey123 because it’s not saved, it’s just used to prove you are still at the keyboard - this is not the LVM password). Follow the installation procedure noting the warnings especially if you have any files or operating systems you want to retain.
